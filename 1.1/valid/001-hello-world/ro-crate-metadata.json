@@ -1,0 +1,68 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "license": {
+        "@id": "https://spdx.org/licenses/CC0-1.0"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "author": {
+      	"@id": "https://orcid.org/0000-0001-9842-9718"
+      },
+      "contactPoint": {
+      	"@id": "https://github.com/ResearchObject/ro-crate-test-suites/issues"
+      },
+      "hasPart": [
+        {
+          "@id": "hello.txt"
+        }
+      ],
+      "license": {
+        "@id": "https://spdx.org/licenses/CC0-1.0"
+      },
+      "name": "A test RO-Crate with a single file",
+      "publisher": {
+        "@id": "https://ror.org/027m9bs27"
+      }
+    },
+    {
+      "@id": "https://github.com/ResearchObject/ro-crate-test-suites/issues",
+      "@type": "ContactPoint",
+      "name": "GitHub issue tracker ResearchObject/ro-crate-test-suite",
+      "url": "https://github.com/ResearchObject/ro-crate-test-suites/issues"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9842-9718",
+      "@type": "Person",
+      "name": "Stian Soiland-Reyes"
+    },
+    {
+      "@id": "hello.txt",
+      "@type": "File",
+      "name": "hello.txt"
+    },
+    {
+      "@id": "https://ror.org/027m9bs27",
+      "@type": "Organization",
+      "name": "The University of Manchester"
+    },
+    {
+      "@id": "https://spdx.org/licenses/CC0-1.0",
+      "@type": "CreativeWork",
+      "identifier": "CC0-1.0",
+      "name": "Creative Commons Zero v1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ]
+}
